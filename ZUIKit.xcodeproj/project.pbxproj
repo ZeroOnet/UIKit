@@ -14,6 +14,7 @@
 		FA3C2F0C2AEA0B4100F92E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3C2F0A2AEA0B4100F92E3B /* LaunchScreen.storyboard */; };
 		FA3C2F152AEA0C4B00F92E3B /* Z.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C2F142AEA0C4B00F92E3B /* Z.swift */; };
 		FA3C2F182AEA0CD500F92E3B /* Z+PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C2F172AEA0CD500F92E3B /* Z+PlaceholderTextView.swift */; };
+		FA3C2F1C2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C2F1B2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA3C2F0D2AEA0B4100F92E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3C2F142AEA0C4B00F92E3B /* Z.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z.swift; sourceTree = "<group>"; };
 		FA3C2F172AEA0CD500F92E3B /* Z+PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z+PlaceholderTextView.swift"; sourceTree = "<group>"; };
+		FA3C2F1B2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z+IntensityVisualEffectView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FA3C2F172AEA0CD500F92E3B /* Z+PlaceholderTextView.swift */,
+				FA3C2F1B2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift */,
 			);
 			path = Usage;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				FA3C2F152AEA0C4B00F92E3B /* Z.swift in Sources */,
 				FA3C2F042AEA0B3F00F92E3B /* ViewController.swift in Sources */,
 				FA3C2F002AEA0B3F00F92E3B /* AppDelegate.swift in Sources */,
+				FA3C2F1C2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift in Sources */,
 				FA3C2F182AEA0CD500F92E3B /* Z+PlaceholderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
