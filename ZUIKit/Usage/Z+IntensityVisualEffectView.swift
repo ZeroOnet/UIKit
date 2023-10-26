@@ -7,7 +7,9 @@
 
 extension Z {
     /// A subclass of UIVisualEffectView, supports custom blur value.
+    ///
     /// - Reference: https://gist.github.com/darrarski/29a2a4515508e385c90b3ffe6f975df7
+    ///
     /// - Important: call as follows if use it in UICollectionViewCell or UITableViewCell:
     /// ```swift
     ///     override func prepareForReuse() {

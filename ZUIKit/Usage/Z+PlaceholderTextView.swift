@@ -7,6 +7,7 @@
 
 extension Z {
     /// A text view with placeholder.
+    ///
     /// - Important: Expect color, text attributes of text view should be equal to placeholder.
     final class PlaceholderTextView: UITextView {
         var onTextDidChange: ((String) -> Void)?

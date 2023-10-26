@@ -7,5 +7,5 @@
 
 @_exported import UIKit
 
-/// A namespace with nesting type.
+/// A namespace with nested type.
 enum Z {} // swiftlint:disable:this type_name
