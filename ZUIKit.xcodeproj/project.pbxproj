@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1C59FB2AF0A70500F13100 /* Z+CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C59FA2AF0A70500F13100 /* Z+CarouselView.swift */; };
 		FA3C2F002AEA0B3F00F92E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C2EFF2AEA0B3F00F92E3B /* AppDelegate.swift */; };
 		FA3C2F042AEA0B3F00F92E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C2F032AEA0B3F00F92E3B /* ViewController.swift */; };
 		FA3C2F072AEA0B3F00F92E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3C2F052AEA0B3F00F92E3B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1C59FA2AF0A70500F13100 /* Z+CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z+CarouselView.swift"; sourceTree = "<group>"; };
 		FA3C2EFC2AEA0B3F00F92E3B /* ZUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3C2EFF2AEA0B3F00F92E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3C2F032AEA0B3F00F92E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				FA3C2F172AEA0CD500F92E3B /* Z+PlaceholderTextView.swift */,
 				FA3C2F1B2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift */,
 				FA3C2F1D2AEA3EF900F92E3B /* Z+CornerRadiusView.swift */,
+				FA1C59FA2AF0A70500F13100 /* Z+CarouselView.swift */,
 			);
 			path = Usage;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				FA3C2F042AEA0B3F00F92E3B /* ViewController.swift in Sources */,
 				FA3C2F1E2AEA3EF900F92E3B /* Z+CornerRadiusView.swift in Sources */,
 				FA3C2F002AEA0B3F00F92E3B /* AppDelegate.swift in Sources */,
+				FA1C59FB2AF0A70500F13100 /* Z+CarouselView.swift in Sources */,
 				FA3C2F1C2AEA3AB300F92E3B /* Z+IntensityVisualEffectView.swift in Sources */,
 				FA3C2F182AEA0CD500F92E3B /* Z+PlaceholderTextView.swift in Sources */,
 			);
