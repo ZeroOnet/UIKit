@@ -132,6 +132,10 @@ extension Z.Carousel {
             result.showsVerticalScrollIndicator = false
             result.showsHorizontalScrollIndicator = false
             result.scrollsToTop = false
+            let tapGR = UITapGestureRecognizer(target: self, action: #selector(_tapAction))
+            result.addGestureRecognizer(tapGR)
+            let longPressGR = UILongPressGestureRecognizer(target: self, action: #selector(_longPressAction))
+            result.addGestureRecognizer(longPressGR)
             return result
         }()
 
@@ -249,11 +253,6 @@ extension Z.Carousel.View {
         for idx in 0..<_internalItemsCount {
             guard let view = item?() else { return }
             view.translatesAutoresizingMaskIntoConstraints = false
-            let tapGR = UITapGestureRecognizer(target: self, action: #selector(_tapAction))
-            view.addGestureRecognizer(tapGR)
-            let longPressGR = UILongPressGestureRecognizer(target: self, action: #selector(_longPressAction))
-            view.addGestureRecognizer(longPressGR)
-
             _itemsPool.append(view)
             _scrollView.addSubview(view)
 
