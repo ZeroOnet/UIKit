@@ -18,7 +18,9 @@ protocol ZCarouselControllable {
     func refresh()
 }
 
-protocol ZCarouselSettable {
+protocol ZCarouselSettable<T> {
+    associatedtype T: ZCarouselable
+
     /// The time interval for scrolling automatically.
     var duration: TimeInterval { get }
     var numberOfItems: (() -> Int)? { get nonmutating set }
@@ -27,7 +29,7 @@ protocol ZCarouselSettable {
     var pageDidChange: ((Int) -> Void)? { get nonmutating set }
     var updateItem: ((UIView, Int) -> Void)? { get nonmutating set }
 
-    func activate() -> ZCarouselable
+    func activate() -> T
 }
 
 extension ZCarouselSettable {
@@ -86,7 +88,7 @@ extension Z {
     ///     view.resume()
     /// ```
     enum Carousel {
-        static func view(duration: TimeInterval = 3) -> ZCarouselSettable {
+        static func view(duration: TimeInterval = 3) -> some ZCarouselSettable {
             View(duration: duration)
         }
     }
@@ -101,7 +103,7 @@ extension Z.Carousel {
             super.init(frame: .zero)
         }
 
-        fileprivate func activate() -> ZCarouselable {
+        fileprivate func activate() -> View {
             assert(numberOfItems != nil)
             assert(item != nil)
             _configureSubviews()
